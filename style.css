@@ -1,0 +1,92 @@
+/* COUNTER NUMBER */
+
+/* #countLabel {
+    /* display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background: hsl(214, 100%, 74%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: hsl(214, 100%, 56%);
+} */ 
+
+/* RANDOM NUMBER GENERATOR CSS */
+/* body{
+    font-family: Verdana;
+    
+}
+
+#myBtn {
+    font-size: 1em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.labels {
+    font-size: 3em;
+} */
+
+/* #container {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+   
+}
+
+.input {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.btnContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 buttons per row */
+    gap: 10px;
+}
+
+.symbols {
+    grid-column: span 2; /* make symbols take the full row */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns for symbols */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#myBtnC {
+  grid-column: span 2;
+}
