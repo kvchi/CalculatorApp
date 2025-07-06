@@ -26,7 +26,7 @@ Clone the repo:
 bash
 Copy
 Edit
-git clone https://github.com/kvchi/calculator-app.git
+git clone https://github.com/kvchi/CalculatorApp.git
 Open the index.html file in your browser
 
 Done! 🎉
